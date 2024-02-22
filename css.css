@@ -4,11 +4,11 @@ body {
 }
 
 header {
-    height: 100vh; /* Establece la altura del encabezado al 100% del viewport */
-    position: relative; /* Añade posición relativa para que los elementos posicionados dentro del encabezado sean relativos a este */
-    display: flex; /* Permite centrar verticalmente los elementos dentro del encabezado */
-    justify-content: center; /* Centra horizontalmente los elementos dentro del encabezado */
-    align-items: center; /* Centra verticalmente los elementos dentro del encabezado */
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fondo-encabezado {
@@ -17,24 +17,24 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("images/resti.jfif"); /* Cambia la ruta de la imagen */
+    background-image: url("images/resti.jfif");
     background-size: contain; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
-    background-position: center; /* Centra la imagen */
+    background-position: center;
     z-index: -1; /* Coloca la imagen de fondo detrás de los platos */
 }
 
 
 .centrado {
     font-family: "Times New Roman", Times, serif;
-    color: white; /* Cambia el color del texto a blanco */
-    font-size: 70px; /* Aumenta el tamaño del texto a 36px */
+    color: white;
+    font-size: 70px;
 }
 
 .descripcion {
     font-family: "Times New Roman", Times, serif;
-    color: white; /* Cambia el color del texto de la descripción a naranja */
-    font-size:20px; /* Puedes ajustar el tamaño del texto de la descripción según tus preferencias */
-    text-align: center; /* Alinea el texto al centro */
+    color: white;
+    font-size:20px;
+    text-align: center;
 }
 
 .menu {
@@ -51,7 +51,7 @@ header {
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 10px;
-    position: relative; /* Añade posición relativa para que el contenido del menú esté posicionado correctamente */
+    position: relative;
 }
 
 .menu-item img {
@@ -86,9 +86,9 @@ header {
     background-color: #cc0000;
 }
 .descripcion-restaurante {
-    color: #333; /* Color del texto */
-    font-size: 18px; /* Tamaño del texto */
-    text-align: center; /* Alineación del texto al centro */
-    margin-top: 20px; /* Margen superior para separar del título */
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
     clear: both; /* Asegura que el elemento se coloque debajo de otros elementos flotantes */
 }

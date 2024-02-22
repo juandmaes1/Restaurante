@@ -2,8 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const menu = document.getElementById('menu');
     const cartContainer = document.getElementById('cart-container');
     const clearCartBtn = document.getElementById('clear-cart');
-    const orderBtn = document.getElementById('order-btn'); // Nuevo botón para ordenar
+    const orderBtn = document.getElementById('order-btn');
 
+    //Platos
     const platos = [
         { nombre: 'Ajiaco', precio: 10, imagen: "images/ajiaco.jfif" },
         { nombre: 'Arepa Rellena 2', precio: 12, imagen: "images/arepa.jfif" },
@@ -19,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
         { nombre: 'Bomba de chocolate ', precio: 25, imagen: "images/bomb.jfif"}
     ];
 
-    // Inicializar el carrito
     let carrito = [];
 
     // Agregar los platos al menú
@@ -56,18 +56,17 @@ document.addEventListener("DOMContentLoaded", function() {
         mostrarCarrito();
     });
 
-    // Agregar la lógica para enviar el formulario y mostrar los detalles del carrito
     orderBtn.addEventListener('click', () => {
         enviarFormulario();
     });
 
-    // Función para agregar un plato al carrito
+    //Agregar un plato al carrito
     function agregarAlCarrito(plato) {
         carrito.push(plato);
         mostrarCarrito();
     }
 
-    // Función para mostrar los platos en el carrito
+    //Mostrar carrito
     function mostrarCarrito() {
         cartContainer.innerHTML = ''; // Limpiar el contenido anterior del carrito
 
@@ -90,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
         calcularTotal();
     }
 
-    // Función para calcular el total del carrito
+    //Total
     function calcularTotal() {
         const total = carrito.reduce((acc, plato) => acc + plato.precio, 0);
         const totalElement = document.createElement('p');
@@ -98,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
         cartContainer.appendChild(totalElement);
     }
 
-    // Función para enviar el formulario simulado y mostrar los detalles del carrito en la consola
+    //Enviar carrito
     function enviarFormulario() {
         console.log("Pedido enviado:");
         carrito.forEach(plato => {

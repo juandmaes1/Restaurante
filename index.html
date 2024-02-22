@@ -2,24 +2,34 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
     <header>
-        <div class="fondo-encabezado"></div> <!-- Agrega la capa de fondo -->
-        <div class="texto-encima">Texto encima</div>
-        <h1 class="centrado">Texto en el centro</h1> 
-    </header>
-    <main>
-        <div class="menu" id="menu">
-            <!-- El contenido de los platos se agregará dinámicamente aquí -->
-        </div>
-    </main>
-    
-    <div class="cart-link" id="cart-link">
-        <!-- La imagen del carrito se agregará aquí -->
+    <div class="fondo-encabezado"></div> <!-- Capa de fondo -->
+    <h1 class="centrado">El sabor <br>
+        Colombiano</h1> 
+    <p class="descripcion">Ven a disfrutar del verdadero sabor Colombiano<br>
+        Prueba las comidas mas tipicas<br>
+        en el centro comercial la Alamedam local 01.</p>
+</header>
+
+
+    <div class="menu" id="menu">
+        <!-- El contenido de los platos se agregará dinámicamente aquí -->
     </div>
+    <div>
+         <img src="C:\Users\PC-01\Desktop\carrito.png" alt="Logo">
+    </div>
+
+    <div id="cart-container" class="cart-container">
+        <!-- El contenido del carrito se agregará dinámicamente aquí -->
+    </div>
+    
+    <button id="clear-cart">Vaciar Carrito</button>
+    <button id="order-btn">Pedir</button>
 
     <script src="script.js"></script>
 </body>

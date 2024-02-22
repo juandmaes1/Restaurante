@@ -5,18 +5,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const orderBtn = document.getElementById('order-btn'); // Nuevo botón para ordenar
 
     const platos = [
-        { nombre: 'Ajiaco', precio: 10, imagen: "C:/Users/PC-01/Desktop/ajiaco.jfif" },
-        { nombre: 'Arepa Rellena 2', precio: 12, imagen: "C:/Users/PC-01/Desktop/arepa.jfif" },
-        { nombre: 'Bandeja Paisa', precio: 15, imagen: "C:/Users/PC-01/Desktop/bandeja.jfif" },
-        { nombre: 'Chicharron', precio: 18, imagen: "C:/Users/PC-01/Desktop/chicha.jfif" },
-        { nombre: 'Arroz con Camaron', precio: 20, imagen: "C:/Users/PC-01/Desktop/arrozcam.jfif" },
-        { nombre: 'T-Bone Steak', precio: 25, imagen: "C:/Users/PC-01/Desktop/tbone.jfif"},
-        { nombre: 'Coca Cola', precio: 12, imagen: "C:/Users/PC-01/Desktop/coc.jfif" },
-        { nombre: 'Margarita', precio: 15, imagen: "C:/Users/PC-01/Desktop/mar.jfif" },
-        { nombre: 'Shot de Tequila', precio: 18, imagen: "C:/Users/PC-01/Desktop/teq.jfif" },
-        { nombre: 'Milhoja', precio: 20, imagen: "C:/Users/PC-01/Desktop/mil.jfif" },
-        { nombre: 'Cheesecake ', precio: 25, imagen:"C:/Users/PC-01/Desktop/chees.jfif"},
-        { nombre: 'Bomba de chocolate ', precio: 25, imagen: "C:/Users/PC-01/Desktop/bomb.jfif"}
+        { nombre: 'Ajiaco', precio: 10, imagen: "images/ajiaco.jfif" },
+        { nombre: 'Arepa Rellena 2', precio: 12, imagen: "images/arepa.jfif" },
+        { nombre: 'Bandeja Paisa', precio: 15, imagen: "images/bandeja.jfif" },
+        { nombre: 'Chicharron', precio: 18, imagen: "images/chicha.jfif" },
+        { nombre: 'Arroz con Camaron', precio: 20, imagen: "images/arrozcam.jfif" },
+        { nombre: 'T-Bone Steak', precio: 25, imagen: "images/tbone.jfif"},
+        { nombre: 'Coca Cola', precio: 12, imagen: "images/coc.jfif" },
+        { nombre: 'Margarita', precio: 15, imagen: "images/mar.jfif" },
+        { nombre: 'Shot de Tequila', precio: 18, imagen: "images/teq.jfif" },
+        { nombre: 'Milhoja', precio: 20, imagen: "images/mil.jfif" },
+        { nombre: 'Cheesecake ', precio: 25, imagen:"images/chees.jfif"},
+        { nombre: 'Bomba de chocolate ', precio: 25, imagen: "images/bomb.jfif"}
     ];
 
     // Inicializar el carrito

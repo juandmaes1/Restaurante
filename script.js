@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //Mostrar carrito
     function mostrarCarrito() {
-        cartContainer.innerHTML = ''; // Limpiar el contenido anterior del carrito
+        cartContainer.innerHTML = ''; // Limpiar carrito
 
         carrito.forEach(plato => {
             const cartItem = document.createElement('div');
